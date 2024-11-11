@@ -15,7 +15,7 @@ app.use(session({
 }));
 
 
-//------------------------setting routes-------------------------//
+//------------------------setting routes-----------------------//
 app.post('/register', register);
 app.post('/login', login);
 //------------------------setting routes-------------------------//
